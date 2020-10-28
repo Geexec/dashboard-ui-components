@@ -6,5 +6,18 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/geexec-dashboard-components/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/geexec-dashboard-components/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/dashboard-ui-application/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/dashboard-ui-application/tsconfig.spec.json"
+    }
+]
 }

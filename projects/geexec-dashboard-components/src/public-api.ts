@@ -1,0 +1,8 @@
+/*
+ * Public API Surface of geexec-dashboard-components
+ */
+
+export * from './lib/geexec-dashboard-components.service';
+export * from './lib/geexec-dashboard-components.component';
+export * from './lib/geexec-dashboard-components.module';
+export * from './lib/gx-heading/gx-heading.component'
