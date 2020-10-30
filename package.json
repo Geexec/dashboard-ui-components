@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "compile-lib" : "ng build geexec-dashboard-components",
+    "compile-lib-npm" :  "ng build geexec-dashboard-components --prod",
+    "push-lib-subtree" : "git subtree push --prefix=dist/geexec-dashboard-components https://github.com/Geexec/dashboard-ui-components-lib.git main && git reset --hard HEAD~1"
   },
   "private": true,
   "dependencies": {
