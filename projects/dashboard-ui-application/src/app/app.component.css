@@ -1,3 +1,38 @@
 .form-group {
   margin: 15px 0px;
 }
+.colors-palette {
+  display: flex;
+}
+.palette {
+  width: 50px;
+  height: 50px;
+  box-shadow: var(--primary-shadow);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.theme-text {
+  background-color: var(--text-color);
+}
+.theme-text-accent {
+  background-color: var(--text-color-accent);
+}
+.theme-button-color {
+  background-color: var(--button-color);
+}
+.theme-accent-color {
+  background-color: var(--accent-color);
+}
+.theme-primary-color {
+  background-color: var(--primary-color);
+}
+.theme-secondary-color {
+  background-color: var(--secondary-color);
+}
+.buttons-palette {
+  margin: 15px 0;
+}
+.buttons-palette gx-button {
+  margin-right: 15px;
+}

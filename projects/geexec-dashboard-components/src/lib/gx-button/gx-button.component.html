@@ -1,3 +1,6 @@
-<button [disabled]="disabled">
+<button
+  [disabled]="disabled"
+  [ngClass]="bgColor != undefined ? bgColor : 'primary'"
+>
   <ng-content></ng-content>
 </button>

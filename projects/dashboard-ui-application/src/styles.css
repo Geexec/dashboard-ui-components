@@ -33,3 +33,28 @@ h6,
 .heading {
   font-family: "Poppins", sans-serif;
 }
+
+.red {
+  background-color: var(--mred);
+}
+.blue {
+  background-color: var(--mblue);
+}
+.yellow {
+  background-color: var(--myellow);
+}
+.gray {
+  background-color: var(--mgray);
+}
+.purple {
+  background-color: var(--mpurple);
+}
+.green {
+  background-color: var(--mgreen);
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
